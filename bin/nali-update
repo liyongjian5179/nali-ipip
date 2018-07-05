@@ -1,5 +1,6 @@
 #!/bin/sh
-ipipdb_dat_url="https://cdn.ipip.net/17mon/17monipdb.datx";
+#ipipdb_dat_url="https://cdn.ipip.net/17mon/17monipdb.datx";
+ipipdb_dat_url="http://onme7tnc1.bkt.clouddn.com/17monipdb.datx";
 ipipdb_dat_local_path="/usr/local/share/17monipdb.datx"
 curl=`which curl`
 wget=`which wget`
