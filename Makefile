@@ -12,7 +12,7 @@ install:bin share
 	install bin/nali-ping $(DESTDIR)$(bindir) 
 	install bin/nali-mtr $(DESTDIR)$(bindir) 
 	install bin/nali-update $(DESTDIR)$(bindir) 
-	install share/17monipdb.dat $(DESTDIR)$(datadir) 
+	install share/17monipdb.datx $(DESTDIR)$(datadir) 
 	install share/nali.pl $(DESTDIR)$(datadir) 
 distclean: clean
 	rm -f config.mak
